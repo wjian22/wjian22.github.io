@@ -1,0 +1,143 @@
+*{margin:0px;padding:0px}
+li{list-style:none}
+a{text-decoration:none}
+img{vertical-align:bottom}
+html,body{
+	height:100%
+}
+.windowbg{
+	background-color:rgba(0,0,0,0.3);
+	height:100%
+}
+.windowbg a{
+	display:block;
+	height:100%;
+	cursor:default
+}
+.window{
+	background:url(../images/dlwindow-bg.jpg);
+	width:652px;
+	position:fixed;
+	left:50%;
+	margin-left:-326px;
+	top:50%;
+	margin-top:-159px
+}
+.zc{
+	width:568px;
+	margin:0px auto;
+	color:white
+}
+.zc p{
+	padding:30px 0px;
+	display:flex;
+	justify-content:space-between
+}
+.zc p a{
+	width: 18px;
+	height: 18px;
+	background:url(../images/icon.png) 0 -469px;
+}
+.zctext>div{
+	width:300px;
+	margin-bottom:20px	
+}
+.zctext input{
+	border:0px;
+	font-size: 14px;
+	width:250px;
+	height:40px;
+	background-color:rgba(193,193,193,0.4);
+	outline:none;
+	color:white
+}
+.zctext input::placeholder{
+	color:white;
+	opacity:0.7
+}
+.zccode input{
+	width:100px;
+	font-weight:bold
+}
+.zccode a{
+	color:white;
+	font-size:12px
+}
+.zccode a>img{
+	position:relative;
+	top:-7px
+}
+.zcmm{
+		position:relative;
+}
+.p-level{
+	width:130px;
+	display:flex;
+	justify-content:space-between;
+	box-sizing:border-box;
+	border-top:7px solid #F5F5F5;
+	position:absolute;
+	right:50px;
+	bottom:-10px;
+	font-size:12px
+}
+.p-level p{
+	padding:0px
+}
+.sign-up{
+	padding-top:22px
+}
+.sign-up a{
+	background:black;
+	color:white;
+	border-radius:4px;
+	width:120px;
+	height:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-bottom:30px
+}
+.auto{
+	font-size:12px;
+}
+.article{
+	color:#0D79CB
+}
+.dl{
+	position:relative;
+	left:-115px;
+	color:white;
+	text-decoration:underline
+}
+.ttp{
+	position:relative;
+	top:-70px;
+	left:400px
+}
+.ttp-list{
+	position:relative;
+	top:-30px;
+	left:90px
+}
+.ttp-list a>div{
+	width:25px;
+	height:25px;
+	float:left;
+	margin:0px 5px
+}
+.ttp-list a:first-child div{
+	background: url(../images/tx.png) no-repeat
+}
+.ttp-list a:nth-child(2) div{
+	background: url(../images/qq.png) no-repeat
+}
+.ttp-list a:nth-child(3) div{
+	background: url(../images/wb.png) no-repeat
+}
+.ttp-list a:nth-child(4) div{
+	background: url(../images/douban.png) no-repeat
+}
+.ttp-list a:hover{
+	opacity:0.5
+}

@@ -1,0 +1,234 @@
+
+.banner{
+	margin-top:10px;
+	text-align:center
+}
+.main{
+	width:1000px;
+	margin:0px auto
+}
+.main-top{
+	height:30px;
+	margin:50px auto 10px;
+	width:300px;
+	color:gray;
+	text-align:center;
+	display:flex
+}
+.main-top span{
+	flex:1
+}
+.main-top span:nth-child(4){
+	color:#6393B4
+}
+.main-mid>p{
+	padding:20px 0px;
+	border-bottom:1px solid gray
+}
+.main-mid>p a{
+	display:block;
+	color:black;
+	line-height:32px;
+	background:url(../images/pa-mid-p2.png) no-repeat right 0px
+}
+.addresslist{
+	width:1000px;
+	height:180px;
+	position:relative;
+	display:flex;
+	justify-content:start;
+	padding:30px 0px
+}
+.addresslist>a:first-child{
+	width:10px;
+	height:18px;
+	position:absolute;
+	left:-15px;
+	top:105px;
+	background:url(../images/smprev.png);
+	background-size:10px 18px
+}
+.addresslist>a:nth-child(2){
+	width:10px;
+	height:18px;
+	position:absolute;
+	right:-15px;
+	top:105px;
+	background:url(../images/smnext.png);
+	background-size:10px 18px
+}
+.addresslist>li{
+	display:block;
+	padding:12px;
+	width:202px;
+	height:152px;
+	border:2px solid #7295B1;
+	overflow:hidden;
+	margin:0px 10px;
+	cursor:pointer
+}
+.addresslist>li>p{
+	display:flex;
+	font-size:13px;
+	line-height:30px;
+	color:#999999
+}
+.addresslist>li>p:first-child{
+	justify-content:space-between;
+	border-bottom:1px solid #EDEDED
+}
+.addresslist>li>p:last-child{
+	justify-content:space-between;
+	position:relative;
+	top:30px
+}
+.addresslist>li>p:last-child>span{
+	flex:1;
+	color:#90C9EE
+}
+.addresslist>li>p:last-child>a{
+	color:#999999;
+	padding-right:10px
+}
+.main-mid>div>label{
+	font-size:12px;
+	color:#999999
+}
+.main-mid>div:hover form{
+	display:block
+}
+.main-mid form{
+	display:none;
+	padding:20px 0px
+}
+.main-mid form tr{
+	display:flex;
+	justify-content:start
+}
+.main-mid form td{
+	margin:10px 10px;
+	height:30px
+}
+.main-mid form td:first-child{
+	width:80px
+}
+.main-mid form table a{
+	display:block;
+	color:white;
+	/* width:100%; */
+	height:30px;
+	line-height:30px;
+	background:#7FA6C5;
+	padding:0px 10px;
+	text-align:center
+}
+.car-list table{
+	width:100%
+}
+.car-list tr{
+	display:flex;
+	border-bottom:3px solid gray
+}
+.car-list td{
+	padding:10px 0px;
+	font-size:12px;
+	color:gray
+}
+.car-list td img{
+	width:70px;
+	height:70px
+}
+.car-list td:nth-child(n+3){
+	width:17%
+}
+
+.car-list td:nth-child(2){
+	padding:10px 100px;
+	flex:1;
+}
+.main-bt{
+	position:relative
+}
+.main-bt form{
+	margin-bottom:200px
+}
+.main-bt td{
+	float:left;
+	margin:10px 5px;
+	color:gray;
+	font-size:12px;
+	line-height:28px
+}
+
+.main-bt textarea{
+	background-color:#EEEEEE;
+	border:0px;
+	line-height:28px
+}
+.main-bt tr:nth-child(2) td:nth-child(2) input{
+	height:28px;
+	border:2px solid gray
+}
+.main-bt tr:nth-child(2) td:nth-child(3) a{
+	display:block;
+	color:white;
+	height:30px;
+	line-height:30px;
+	background:#7FA6C5;
+	padding:0px 10px;
+	text-align:center
+}
+.main-bt tr:nth-child(2) td:last-child a{
+	color:gray;
+	text-decoration:underline
+}
+.payway{
+	display:flex;
+	flex-direction:column;
+	position:absolute;
+	bottom:100px;
+	left:50%;
+	margin-left:-40px
+}
+.main-bt>p{
+	color:#7FA6C5;
+	text-align:center;
+	font-size:12px
+}
+.main-bt>a{
+	display:block;
+	color:white;
+	height:30px;
+	line-height:30px;
+	background:#7FA6C5;
+	width:168px;
+	margin:10px auto 0px;
+	text-align:center
+}
+.main-bt>div{
+	position:absolute;
+	right:0px;
+	bottom:20px
+}
+.main-bt>div>p{
+	text-align:right;
+	font-size:12px;
+	color:gray;
+	line-height:36px
+}
+.main-bt>div>p:nth-child(4){
+	font-size:15px
+}
+.main-bt>div>p:nth-child(4) span{
+	font-size:20px;
+	color:#6393B4
+}
+.main-bt>div>p:nth-child(5){
+	color:black;
+	text-decoration:line-through;
+	font-style:italic;
+	font-size:18px
+}
+.main-bt>div>p:nth-child(6){
+	color:red
+}

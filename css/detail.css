@@ -1,0 +1,238 @@
+
+.main{
+	width:1000px;
+	margin:20px auto 0px
+}
+.box-l{
+	width:750px;
+	margin-right:15px;
+	display:inline-block
+}
+.box-l>p{
+	font-size:14px;
+	color:#CECECE;
+	margin-bottom:10px
+}
+.box-l>p>a{
+	color:gray;
+	opacity:0.4
+}
+.box-l>p>a:nth-child(3){
+	opacity:1
+}
+.detail-l{
+	float:left
+}
+.detail-l>img{
+	width:350px;
+	height:350px
+}
+.smallbanner{
+	width:350px;
+	height:80px;
+	padding-top:15px;
+	display:flex;
+	justify-content:space-around;
+	position:relative
+	
+}
+.smallbanner>a:first-child{
+	width:10px;
+	height:18px;
+	position:absolute;
+	left:-15px;
+	top:31px;
+	background:url(../images/smprev.png);
+	background-size:10px 18px
+}
+
+.smallbanner>a:nth-child(2){
+	width:10px;
+	height:18px;
+	position:absolute;
+	right:-15px;
+	top:31px;
+	background:url(../images/smnext.png);
+	background-size:10px 18px
+}
+
+.smallbanner>a:nth-child(n+3)>img{
+	width:63px;
+	height:63px
+}
+
+.detail>p{
+	float:right;
+	width:330px;
+	margin:0px 10px 10px;
+	height:auto
+}
+.detail>p:first-of-type>a{
+	color:black;
+	float:left;
+	padding-left:20px;
+	font-size:12px;
+	line-height:12px;
+	background:url(../images/detail-a1.png) no-repeat;
+	background-size:12px
+}
+.detail>p:nth-of-type(2)>a{
+	font-size:24px;
+	color: #878787
+}
+.detail>p:nth-of-type(3){
+	font-size:24px
+}
+.detail>p:nth-of-type(4){
+	font-size:12px;
+	color:gray
+}
+.detail>p:nth-of-type(4)>span{
+	color:#1083FF;
+	font-size:18px;
+}
+.detail>p:nth-of-type(5){
+	padding-left:2em;
+	box-sizing:border-box
+}
+.detail>p:nth-of-type(5)>span{
+	padding-left: 17px;
+	color:gray;
+}
+.detail>p:nth-of-type(5)>span:first-child{
+	background: url(../images/myf.png) no-repeat left center;
+	background-size: 14px 14px;
+}
+.detail>p:nth-of-type(5)>span:last-child{
+	background: url(../images/zbsq.png) no-repeat left center;
+	background-size: 14px 14px;
+}
+.detail>p:nth-of-type(6){
+	color:gray;
+	font-size:12px;
+	display:block
+}
+.detail>p:nth-of-type(6)>span{
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	border:1px solid rgba(0,0,0,0)
+}
+.detail>p:nth-of-type(6)>span>a{
+	color:black;
+	font-size:12px
+}
+.detail>p:nth-of-type(6)>span:hover{
+	border:1px solid black
+}
+.detail>p:nth-of-type(6)>span>a>img{
+	width:34px;
+	height:34px
+}
+.detail>p:nth-of-type(7){
+	color:gray;
+	font-size:12px
+}
+.detail>p:nth-of-type(7) input{
+	width:50px;
+	margin-left:20px;
+	text-align:center;
+	border:1px solid #EEEEEE
+}
+.detail>p:nth-of-type(8) input:first-child{
+	color:white;
+	background-color:black;
+	width:330px;
+	height:42px;
+	font-size:18px;
+	cursor:pointer
+}
+.detail>p:nth-of-type(8) input:nth-child(n+2){
+	width:162.5px;
+	height:42px;
+	background:white;
+	font-size:18px;
+	cursor:pointer;
+	margin-top:10px
+}
+.detail>img{
+	width:750px
+}
+.detail-bt>p:first-child{
+	font-size:18px;
+	margin:20px 0px;
+	padding-left:25px;
+	background:url(../images/detail-btbg1.png) no-repeat 0px center;
+	background-size:20px 21px;
+}
+.detail-bt>p:nth-child(2){
+	font-size:12px
+}
+.detail-bt>p:nth-child(3){
+	font-size:18px;
+	margin:20px 0px;
+	padding-left:25px;
+	background:url(../images/detail-btbg2.png) no-repeat 0px center;
+	background-size:20px 21px;
+}
+.detail-bt>p:nth-child(n+4){
+	font-size:12px;
+	line-height:32px
+}
+.aftersale{
+	display:block;
+	color:black;
+	margin-top:30px;
+	position:relative
+}
+.aftersale>span{
+	border:1px solid black;
+	border-radius:2px;
+	padding:3px 20px
+}
+.aftersale>div{
+	width:100%;
+	position:absolute;
+	top:-628px;
+	font-size:12px;
+	display:none;
+	padding-bottom:20px
+}
+.aftersale>div>div{
+	height:500px;
+	padding:50px;
+	border:2px solid gray;
+	background-color:white;
+}
+.aftersale:hover div{
+	display:block
+}
+.box-r{
+	width:235px;
+	float:right;
+	line-height:24px
+}
+.box-r>div{
+	padding-bottom:20px
+}
+.box-r>div>a{
+	display:block;
+	color:black;
+	font-size:12px
+}
+.box-r>div>a>img{
+	width:200px
+}
+.box-r>div>p{
+	font-size:12px;
+	color:gray
+}
+.box-r>div>p>span:first-child{
+	font-size:18px;
+	color:#3193F3
+}
+.box-r>div>p>span:last-child{
+	text-decoration:line-through
+}
+
+
